@@ -1,0 +1,28 @@
+{
+    "produtos" : [
+        {
+            "title" : "Fone de ouvido",
+            "description" : "Fone super top",
+            "img" : "download.jpeg",
+            "price" : 299.00
+        },
+        {
+            "title" : "Fone de ouvido",
+            "description" : "Fone super top",
+            "img" : "download.jpeg",
+            "price" : 299.00
+        },
+        {
+            "title" : "Fone de ouvido",
+            "description" : "Fone super top",
+            "img" : "download.jpeg",
+            "price" : 299.00
+        },
+        {
+            "title" : "Fone de ouvido",
+            "description" : "Fone super top",
+            "img" : "download.jpeg",
+            "price" : 299.00
+        }
+    ]
+}
