@@ -2,12 +2,12 @@ $(function(){
     let estrutura = '';
 
     let loadProdutos = () => {
-        $.ajax({
+        /* $.ajax({
             url : "/produtos.json",
             dataType : "JSON",
-            success : function(data){
+            success : function(data){ */
                 //fazer loop nos data
-                let lista = data.produtos
+                let lista = (localStorage.produtos) ? JSON.parse(localStorage.produtos) : []
                 for(pos in lista){
                     // estrutura = estrutura + `<div></div>`
                     estrutura += `
@@ -28,8 +28,8 @@ $(function(){
 
                 //injetar o conteudo no index
                 $('#loadProdutos').html(estrutura)
-            }
-        })
+            //}
+        //})
     }
 
     //carregar produtos
